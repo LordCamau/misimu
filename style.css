@@ -215,14 +215,51 @@ input, button, textarea {
     }
 
     .hero__search {
+      display: grid;
+      gap: 12px 16px;
+      width: 100%;
 
     }
 
     .hero__textbox {
+      background-image: url("/assets/images/icon-search.svg");
+      background-repeat: no-repeat;
+      background-position: 24px center;
+      border: none;
+      background-color: var(--color-panel-bg-dark);
+      font-size: var(--font-size-search);
+      padding: 16px 20px;
+      color: var(--color-text-med-light);
+      width: 100%;
+      border-radius: 12px;
+      text-align: center;
+
+      &:focus {
+        outline: 2px solid var(---color-text-med-light);
+      }
+
+      &::placeholder {
+        color: var(--color-text-med-light);
+      }
+
+
+
 
     }
 
     .hero__button {
+      border: none;
+      border-radius: 12px;
+      background-color: var(--c-blue-500);
+      font-size: var(--font-size-search);
+      color: var(--color-text-light);
+      padding: 16px;
+      transition: background-color 120ms ease-in-out;
+
+      &:hover {
+        background-color: var(--color-button-bg-hover);
+        cursor: pointer;
+      }
 
     }
 
