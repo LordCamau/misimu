@@ -266,4 +266,37 @@ input, button, textarea {
 
   }
 
+  .current {
+    .current__weather {
+      
+    }
+    .current__location {
+
+    }
+    .current__city {
+
+    }
+    .current__date {
+
+    }
+    .current__temp {
+
+    }
+    .current__conditions {
+
+    }
+    .current__condition {
+
+    }
+    .current__condition-title {
+
+    }
+    .current__condition-value {
+
+    }
+    .current__condition-value {
+
+    }
+  }
+
 }
